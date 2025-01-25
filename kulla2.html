@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUSTFLIX ORIGINALS</title>
+    <link rel="website icon" type="png"
+  href="logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 300px;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .card video {
+            width: 100%;
+        }
+
+        .card-content {
+            padding: 16px;
+        }
+
+        .card-content h1 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .card-content p {
+            color: #b3b3b3;
+            font-size: 0.9em;
+            margin: 8px 0;
+        }
+
+        .genres {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 8px 0;
+        }
+
+        .genres span {
+            background-color: #333;
+            padding: 4px 8px;
+            border-radius: 16px;
+            font-size: 0.8em;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 16px;
+        }
+
+        .actions button {
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 16px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .actions button.secondary {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <video src="kulladance.mov" width="200" height="500" loop autoplay></video>
+        <div class="card-content">
+            <h1>NACHO REE</h1>
+            <p>Gritty • Dark • Action • Drug Lord • 2005s</p>
+            <div class="actions">
+                <button>Play</button>
+                <button class="secondary">My List</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
